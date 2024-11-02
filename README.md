@@ -51,7 +51,7 @@
 Để bắt đầu, hãy clone repository của dự án:
 
 ```bash
-git clone https://github.com/vanphudev/ECommerce_Second_Hand.git second_hand_web
+git clone https://github.com/vanphudev/ECommerce_Admin_Second_Hand.git second_hand_admin
 ```
 
 ### 2. Cài đặt Gói
@@ -59,7 +59,7 @@ git clone https://github.com/vanphudev/ECommerce_Second_Hand.git second_hand_web
 Di chuyển vào thư mục dự án và cài đặt các gói cần thiết:
 
 ```bash
-cd second_hand_web
+cd second_hand_admin
 npm install
 ```
 
@@ -76,8 +76,8 @@ npm run dev
 -  Steps on how to install this project, to use it.
 
 ```bash
-git clone https://github.com/vanphudev/ECommerce_Second_Hand.git second_hand_web
-cd second_hand_web
+git clone https://github.com/vanphudev/ECommerce_Admin_Second_Hand.git second_hand_admin
+cd second_hand_admin
 ```
 
 ### :package: Commands
