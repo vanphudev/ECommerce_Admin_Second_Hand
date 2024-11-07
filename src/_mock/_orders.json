@@ -1,0 +1,996 @@
+[
+   {
+      "order_id": "fcff3c7b-edd7-485d-8aaf-0934389ce452",
+      "store": {
+         "store_id": "d7974f43-e6d6-4b55-9ad9-d182a10da1bc",
+         "store_name": "Funk, Olson and Feeney",
+         "store_address": {
+            "street": "19273 Madelyn Club",
+            "city": "Port Woodrowtown",
+            "district": "O'Fallon",
+            "ward": "N Central Avenue"
+         },
+         "store_phone": "1-672-900-9219",
+         "store_email": "Nedra.Kunze@yahoo.com",
+         "store_image": "https://loremflickr.com/640/480/business"
+      },
+      "customer": {
+         "customer_id": "5a501de0-8084-4e17-a0c5-da5119ae6cdf",
+         "customer_image": "https://avatars.githubusercontent.com/u/77644672",
+         "name": "Miss Jacquelyn Kilback",
+         "phone": "973.539.0312",
+         "gender": "Khác",
+         "email": "Emmalee_Osinski@gmail.com",
+         "address": {
+            "street": "57949 E 8th Street",
+            "city": "South San Francisco",
+            "district": "Columbus",
+            "ward": "S Oak Street"
+         }
+      },
+      "items": [
+         {
+            "product_id": "60773f39-078b-480b-8431-8a46a7de7f7c",
+            "product_name": "Practical Concrete Fish",
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 332,
+            "quantity": 2
+         }
+      ],
+      "order_details": {
+         "total_items": 1,
+         "total_price": "664.00",
+         "order_date": "2024-11-06",
+         "order_note": "Vigor aranea tergeo.",
+         "payment_method": "Bank Transfer",
+         "order_status": "Đang đóng gói",
+         "voucher": "a0a6f296-5c14-4f92-bbc8-109ca1049b18",
+         "discount_rate": "19%",
+         "discount_amount": "126,16 ₫",
+         "final_price": "537,84 ₫"
+      },
+      "shipping": {
+         "shipping_address": {
+            "street": "354 Rebekah Pine",
+            "city": "Mansfield",
+            "district": "Victoria",
+            "ward": "11th Street"
+         },
+         "shipping_fee": 40,
+         "shipping_method": "SPX",
+         "estimated_delivery_date": "2024-11-07"
+      },
+      "device": {
+         "device_type": "Desktop",
+         "operating_system": "iOS",
+         "browser": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_10_4 rv:4.0; MS) AppleWebKit/534.1.0 (KHTML, like Gecko) Version/6.1.0 Safari/534.1.0",
+         "ip_address": "114.53.157.57"
+      }
+   },
+   {
+      "order_id": "d4e27a72-637f-4e06-a0f6-c3cc729eb3a0",
+      "store": {
+         "store_id": "acb77de7-2029-4e37-bd34-95093bc32782",
+         "store_name": "Schamberger, Orn and Turcotte",
+         "store_address": {
+            "street": "983 Wintheiser Roads",
+            "city": "New Dimitrimouth",
+            "district": "Irondequoit",
+            "ward": "10th Street"
+         },
+         "store_phone": "1-231-804-9823",
+         "store_email": "Queenie.Grady1@yahoo.com",
+         "store_image": "https://loremflickr.com/640/480/business"
+      },
+      "customer": {
+         "customer_id": "ab9d9eb5-9890-451f-82f0-370afe3e2878",
+         "customer_image": "https://avatars.githubusercontent.com/u/85829430",
+         "name": "Pete Rempel",
+         "phone": "418-224-2983 x4497",
+         "gender": "Nữ",
+         "email": "Jarvis.Tillman@gmail.com",
+         "address": {
+            "street": "17753 Eriberto Key",
+            "city": "Goldenfort",
+            "district": "Muncie",
+            "ward": "Priory Road"
+         }
+      },
+      "items": [
+         {
+            "product_id": "9eecc29a-1730-47bf-bfd1-36dfb5a0839a",
+            "product_name": "Licensed Granite Ball",
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 706,
+            "quantity": 10
+         },
+         {
+            "product_id": "452b1872-21eb-4397-8e6c-1b4adaa72c58",
+            "product_name": "Gorgeous Concrete Tuna",
+            "description": "The Football Is Good For Training And Recreational Purposes",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 966,
+            "quantity": 7
+         },
+         {
+            "product_id": "9c614db9-249b-4af1-aff8-375ba457f202",
+            "product_name": "Incredible Fresh Sausages",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 861,
+            "quantity": 10
+         },
+         {
+            "product_id": "d2236d06-981b-4331-82ce-404792f584e2",
+            "product_name": "Elegant Fresh Tuna",
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 62,
+            "quantity": 5
+         },
+         {
+            "product_id": "90e27287-ca51-445d-b665-a65a5c1a8ca9",
+            "product_name": "Ergonomic Frozen Computer",
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 129,
+            "quantity": 10
+         },
+         {
+            "product_id": "9a4fbe3b-bc10-4a45-9edd-0ecd70035db5",
+            "product_name": "Generic Fresh Sausages",
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 558,
+            "quantity": 5
+         },
+         {
+            "product_id": "17267741-8225-4b3d-9f3d-c6920b6df449",
+            "product_name": "Gorgeous Steel Pizza",
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 106,
+            "quantity": 8
+         }
+      ],
+      "order_details": {
+         "total_items": 7,
+         "total_price": "27670.00",
+         "order_date": "2024-11-05",
+         "order_note": "Doloremque tubineus aliqua curso agnitio uberrime.",
+         "payment_method": "Bank Transfer",
+         "order_status": "Đã hủy",
+         "voucher": null,
+         "discount_rate": "0%",
+         "discount_amount": "0 ₫",
+         "final_price": "27.670 ₫"
+      },
+      "shipping": {
+         "shipping_address": {
+            "street": "53680 Hintz Lodge",
+            "city": "Mansfield",
+            "district": "Sacramento",
+            "ward": "Pearl Street"
+         },
+         "shipping_fee": 18,
+         "shipping_method": "SPX",
+         "estimated_delivery_date": "2024-11-07"
+      },
+      "device": {
+         "device_type": "Tablet",
+         "operating_system": "iOS",
+         "browser": "Mozilla/5.0 (X11; Linux x86_64 AppleWebKit/535.1.2 (KHTML, like Gecko) Chrome/35.0.834.0 Safari/535.1.2",
+         "ip_address": "6ada:ecbe:dc32:f523:b131:1ac1:d87f:d1ec"
+      }
+   },
+   {
+      "order_id": "763a5500-476b-4c24-a8e6-b844844bbe12",
+      "store": {
+         "store_id": "c0abfa49-2c6b-41b3-9edb-8b4e8b4fab4f",
+         "store_name": "Cummerata, Wiza and Tremblay",
+         "store_address": {
+            "street": "3297 Brook Road",
+            "city": "Lorain",
+            "district": "Redding",
+            "ward": "Manor Road"
+         },
+         "store_phone": "1-571-468-9962 x42963",
+         "store_email": "Wendy_Heathcote@gmail.com",
+         "store_image": "https://loremflickr.com/640/480/business"
+      },
+      "customer": {
+         "customer_id": "d5a8abbe-9a80-4bd8-a145-ceb7a65c6fdb",
+         "customer_image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/556.jpg",
+         "name": "Mrs. Ollie Williamson",
+         "phone": "(889) 472-1097 x649",
+         "gender": "Nam",
+         "email": "Nash.Abernathy55@hotmail.com",
+         "address": {
+            "street": "80249 Jensen Walks",
+            "city": "Donnellyworth",
+            "district": "Murray",
+            "ward": "Queen's Road"
+         }
+      },
+      "items": [
+         {
+            "product_id": "0c4ddda5-25bc-44ae-b275-bcf9fab61286",
+            "product_name": "Fantastic Granite Shoes",
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 726,
+            "quantity": 8
+         }
+      ],
+      "order_details": {
+         "total_items": 1,
+         "total_price": "5808.00",
+         "order_date": "2024-11-05",
+         "order_note": "Cupressus arcesso triumphus curatio magni appositus suadeo.",
+         "payment_method": "Bank Transfer",
+         "order_status": "Chờ xác nhận",
+         "voucher": null,
+         "discount_rate": "0%",
+         "discount_amount": "0 ₫",
+         "final_price": "5.808 ₫"
+      },
+      "shipping": {
+         "shipping_address": {
+            "street": "45942 Muller Crescent",
+            "city": "Metzfort",
+            "district": "Garland",
+            "ward": "Albert Road"
+         },
+         "shipping_fee": 978,
+         "shipping_method": "Standard",
+         "estimated_delivery_date": "2024-11-06"
+      },
+      "device": {
+         "device_type": "Mobile",
+         "operating_system": "MacOS",
+         "browser": "Mozilla/5.0 (Windows; U; Windows NT 6.3) AppleWebKit/537.1.2 (KHTML, like Gecko) Chrome/19.0.836.0 Safari/537.1.2",
+         "ip_address": "32.182.198.77"
+      }
+   },
+   {
+      "order_id": "eca717ca-a864-4f34-897d-79816043ea4a",
+      "store": {
+         "store_id": "3f30e1d3-9e6b-4ea1-b9eb-01632d4a4a32",
+         "store_name": "Ankunding - Labadie",
+         "store_address": {
+            "street": "583 Schroeder Points",
+            "city": "North Mateostad",
+            "district": "Paterson",
+            "ward": "Springfield Road"
+         },
+         "store_phone": "990-773-2735 x997",
+         "store_email": "Russel79@hotmail.com",
+         "store_image": "https://loremflickr.com/640/480/business"
+      },
+      "customer": {
+         "customer_id": "cc24e6c8-22f5-474c-8079-16d39a5790b3",
+         "customer_image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1117.jpg",
+         "name": "Monique Larson",
+         "phone": "246-348-6902 x328",
+         "gender": "Nữ",
+         "email": "Rachel70@gmail.com",
+         "address": {
+            "street": "9630 Elliot Oval",
+            "city": "Kesslerport",
+            "district": "New Braunfels",
+            "ward": "Union Street"
+         }
+      },
+      "items": [
+         {
+            "product_id": "08ba38c3-88ae-477d-bd86-5e4073a6744a",
+            "product_name": "Awesome Granite Fish",
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 103,
+            "quantity": 10
+         },
+         {
+            "product_id": "2eb005c6-78f6-4caf-a751-5200c29651d8",
+            "product_name": "Licensed Cotton Tuna",
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 841,
+            "quantity": 8
+         }
+      ],
+      "order_details": {
+         "total_items": 2,
+         "total_price": "7758.00",
+         "order_date": "2024-11-05",
+         "order_note": "Ventosus totam tribuo pariatur sapiente angelus.",
+         "payment_method": "COD",
+         "order_status": "Đang vận chuyển",
+         "voucher": null,
+         "discount_rate": "0%",
+         "discount_amount": "0 ₫",
+         "final_price": "7.758 ₫"
+      },
+      "shipping": {
+         "shipping_address": {
+            "street": "31434 Jacobson Row",
+            "city": "East Nasirland",
+            "district": "Belleville",
+            "ward": "S Pine Street"
+         },
+         "shipping_fee": 449,
+         "shipping_method": "SPX",
+         "estimated_delivery_date": "2024-11-07"
+      },
+      "device": {
+         "device_type": "Desktop",
+         "operating_system": "Android",
+         "browser": "Mozilla/5.0 (Windows; U; Windows NT 6.1) AppleWebKit/535.1.2 (KHTML, like Gecko) Chrome/16.0.822.0 Safari/535.1.2",
+         "ip_address": "860a:36df:630a:a81e:73c0:4940:de8a:4b01"
+      }
+   },
+   {
+      "order_id": "70465a57-b5dd-4b8b-b987-69b995be49b1",
+      "store": {
+         "store_id": "ee882d3c-9023-494d-912c-4d6094fb253d",
+         "store_name": "Schuppe, Mante and Schimmel",
+         "store_address": {
+            "street": "1995 Claremont Road",
+            "city": "South Pinkie",
+            "district": "Sanford",
+            "ward": "N 4th Street"
+         },
+         "store_phone": "1-681-719-6029",
+         "store_email": "Uriah.Schiller@hotmail.com",
+         "store_image": "https://loremflickr.com/640/480/business"
+      },
+      "customer": {
+         "customer_id": "7245ebcf-3f8f-4bdc-a024-5e704064de1f",
+         "customer_image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/32.jpg",
+         "name": "Priscilla Donnelly-Balistreri",
+         "phone": "1-976-513-1766 x7538",
+         "gender": "Nam",
+         "email": "Kristian.Schmidt@yahoo.com",
+         "address": {
+            "street": "870 Medhurst Keys",
+            "city": "East Reilly",
+            "district": "El Monte",
+            "ward": "W 14th Street"
+         }
+      },
+      "items": [
+         {
+            "product_id": "78c7ec17-b2c4-4374-bd44-a80a7194f4f6",
+            "product_name": "Handmade Frozen Chicken",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 374,
+            "quantity": 4
+         },
+         {
+            "product_id": "8158a40e-e46b-4ab1-bf18-f62c2acefc63",
+            "product_name": "Elegant Fresh Keyboard",
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 656,
+            "quantity": 6
+         },
+         {
+            "product_id": "0a8c5aa6-4882-45b4-a124-59e8b712f400",
+            "product_name": "Intelligent Wooden Keyboard",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 282,
+            "quantity": 3
+         }
+      ],
+      "order_details": {
+         "total_items": 3,
+         "total_price": "6278.00",
+         "order_date": "2024-11-06",
+         "order_note": "Sopor crepusculum anser.",
+         "payment_method": "COD",
+         "order_status": "Đã hủy",
+         "voucher": null,
+         "discount_rate": "0%",
+         "discount_amount": "0 ₫",
+         "final_price": "6.278 ₫"
+      },
+      "shipping": {
+         "shipping_address": {
+            "street": "8264 Brakus Glen",
+            "city": "Hegmanncester",
+            "district": "Daly City",
+            "ward": "Cumberland Street"
+         },
+         "shipping_fee": 186,
+         "shipping_method": "SPX",
+         "estimated_delivery_date": "2024-11-07"
+      },
+      "device": {
+         "device_type": "Tablet",
+         "operating_system": "MacOS",
+         "browser": "Mozilla/5.0 (X11; Linux x86_64; rv:13.0) Gecko/20100101 Firefox/13.0.0",
+         "ip_address": "231.65.12.82"
+      }
+   },
+   {
+      "order_id": "dfe43cfb-c0a1-4224-a429-9faaa7614a10",
+      "store": {
+         "store_id": "13f8fe71-028f-4114-935c-b50e3d435481",
+         "store_name": "Gleason - Hane",
+         "store_address": {
+            "street": "8576 Felix Spur",
+            "city": "Julienland",
+            "district": "Highland",
+            "ward": "Main Road"
+         },
+         "store_phone": "497.427.5480 x357",
+         "store_email": "Kaley29@gmail.com",
+         "store_image": "https://loremflickr.com/640/480/business"
+      },
+      "customer": {
+         "customer_id": "4083ce8e-d2e2-45ca-98eb-201792f3e7eb",
+         "customer_image": "https://avatars.githubusercontent.com/u/20592822",
+         "name": "Elijah Schultz",
+         "phone": "478-586-8431 x403",
+         "gender": "Nam",
+         "email": "Raina_Schroeder-Hirthe40@hotmail.com",
+         "address": {
+            "street": "3978 Bradly Ferry",
+            "city": "Fort Kianna",
+            "district": "Burien",
+            "ward": "W 9th Street"
+         }
+      },
+      "items": [
+         {
+            "product_id": "afcc1986-743d-4c7e-8a80-ff6b979459ff",
+            "product_name": "Small Soft Cheese",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 552,
+            "quantity": 7
+         },
+         {
+            "product_id": "8d4b2cdc-8594-4422-a2fe-ffb7396912e3",
+            "product_name": "Tasty Concrete Sausages",
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 825,
+            "quantity": 10
+         },
+         {
+            "product_id": "415e1a2e-6b41-4da1-9931-b9c2e701cebd",
+            "product_name": "Generic Granite Shirt",
+            "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 959,
+            "quantity": 2
+         },
+         {
+            "product_id": "9c2423b4-8b0a-4861-90b5-0950855e18ac",
+            "product_name": "Unbranded Concrete Hat",
+            "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 628,
+            "quantity": 3
+         },
+         {
+            "product_id": "875385d2-f41d-4634-af43-0e5e12ba2b7a",
+            "product_name": "Tasty Metal Fish",
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 957,
+            "quantity": 10
+         },
+         {
+            "product_id": "49cbe6f8-1682-4256-b4d9-c29deea485bc",
+            "product_name": "Practical Concrete Chips",
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 295,
+            "quantity": 1
+         }
+      ],
+      "order_details": {
+         "total_items": 6,
+         "total_price": "25781.00",
+         "order_date": "2024-11-06",
+         "order_note": "Dolorum volaticus decor eos cibo harum assentator cernuus adhuc celo.",
+         "payment_method": "E-wallet",
+         "order_status": "Đang vận chuyển",
+         "voucher": null,
+         "discount_rate": "0%",
+         "discount_amount": "0 ₫",
+         "final_price": "25.781 ₫"
+      },
+      "shipping": {
+         "shipping_address": {
+            "street": "518 Littel Alley",
+            "city": "North Austen",
+            "district": "North Las Vegas",
+            "ward": "Duke Street"
+         },
+         "shipping_fee": 224,
+         "shipping_method": "Standard",
+         "estimated_delivery_date": "2024-11-07"
+      },
+      "device": {
+         "device_type": "Desktop",
+         "operating_system": "MacOS",
+         "browser": "Mozilla/5.0 (Windows; U; Windows NT 6.3) AppleWebKit/538.0.1 (KHTML, like Gecko) Chrome/22.0.828.0 Safari/538.0.1",
+         "ip_address": "1dd3:26cd:d56a:a7df:fc3f:0bdd:c945:d76c"
+      }
+   },
+   {
+      "order_id": "74c5bbbd-2e80-4c66-9615-9912cfe25083",
+      "store": {
+         "store_id": "e2550e53-3a37-412a-8223-b485d4811aa9",
+         "store_name": "Kuphal - Lang",
+         "store_address": {
+            "street": "4109 Dayne Estate",
+            "city": "Croninfort",
+            "district": "Delray Beach",
+            "ward": "Old Military Road"
+         },
+         "store_phone": "(528) 698-0134 x7641",
+         "store_email": "Sterling99@hotmail.com",
+         "store_image": "https://loremflickr.com/640/480/business"
+      },
+      "customer": {
+         "customer_id": "d01677db-3fa8-4cda-a059-d642da842388",
+         "customer_image": "https://avatars.githubusercontent.com/u/50258951",
+         "name": "Irma Trantow",
+         "phone": "238-554-3312 x574",
+         "gender": "Nam",
+         "email": "Tina19@gmail.com",
+         "address": {
+            "street": "268 Felicity Field",
+            "city": "East Metafort",
+            "district": "Austin",
+            "ward": "Station Road"
+         }
+      },
+      "items": [
+         {
+            "product_id": "78cffd8f-7aaa-46f8-8a16-39b456b0f199",
+            "product_name": "Rustic Cotton Hat",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 341,
+            "quantity": 8
+         },
+         {
+            "product_id": "727ca3b8-fe04-45b4-8eab-b3b5cbecd093",
+            "product_name": "Oriental Plastic Salad",
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 421,
+            "quantity": 2
+         },
+         {
+            "product_id": "bcfd6552-a0b4-414c-9993-b2abe5591e1a",
+            "product_name": "Incredible Metal Ball",
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 111,
+            "quantity": 7
+         },
+         {
+            "product_id": "fe8eb52a-935d-4157-87c6-0484134617b6",
+            "product_name": "Intelligent Soft Sausages",
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 880,
+            "quantity": 8
+         },
+         {
+            "product_id": "e7ae1149-2e9b-4037-8088-44105dfe57ba",
+            "product_name": "Practical Plastic Bike",
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 467,
+            "quantity": 3
+         },
+         {
+            "product_id": "3bd1168f-c336-4b83-b7a3-d589ae5df2fa",
+            "product_name": "Incredible Concrete Bacon",
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 237,
+            "quantity": 3
+         },
+         {
+            "product_id": "e72f9319-e328-4816-bc4a-30f0cdd44ca8",
+            "product_name": "Small Plastic Gloves",
+            "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 520,
+            "quantity": 6
+         },
+         {
+            "product_id": "1471d945-469d-4a8c-b9c2-3ac3123e143e",
+            "product_name": "Elegant Concrete Keyboard",
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 410,
+            "quantity": 9
+         }
+      ],
+      "order_details": {
+         "total_items": 8,
+         "total_price": "20309.00",
+         "order_date": "2024-11-05",
+         "order_note": "Tristis vorax sordeo demergo.",
+         "payment_method": "Credit Card",
+         "order_status": "Đã giao",
+         "voucher": null,
+         "discount_rate": "0%",
+         "discount_amount": "0 ₫",
+         "final_price": "20.309 ₫"
+      },
+      "shipping": {
+         "shipping_address": {
+            "street": "5152 Buddy Ports",
+            "city": "Pacochaton",
+            "district": "Harlingen",
+            "ward": "Grange Avenue"
+         },
+         "shipping_fee": 495,
+         "shipping_method": "Express",
+         "estimated_delivery_date": "2024-11-07"
+      },
+      "device": {
+         "device_type": "Desktop",
+         "operating_system": "Windows",
+         "browser": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.0; Trident/7.0; .NET CLR 1.0.52787.1)",
+         "ip_address": "472c:405d:6cf1:3ddc:04c9:51be:1cfc:a10f"
+      }
+   },
+   {
+      "order_id": "ddc64ba5-07b5-4267-823a-6c21f42e9ce7",
+      "store": {
+         "store_id": "dd9f5f60-8a71-4cb5-bf48-3d963327c714",
+         "store_name": "Zboncak - Rath",
+         "store_address": {
+            "street": "6401 Kozey Coves",
+            "city": "Davisfurt",
+            "district": "Mount Pleasant",
+            "ward": "King Street"
+         },
+         "store_phone": "(509) 666-5042 x05954",
+         "store_email": "Sheridan96@hotmail.com",
+         "store_image": "https://loremflickr.com/640/480/business"
+      },
+      "customer": {
+         "customer_id": "986e6fb6-c2a7-48d3-8d2e-05602468fa75",
+         "customer_image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/721.jpg",
+         "name": "Howard Armstrong",
+         "phone": "1-526-778-1502",
+         "gender": "Nữ",
+         "email": "Chadrick_Bergstrom@gmail.com",
+         "address": {
+            "street": "274 Heath Road",
+            "city": "Bertatown",
+            "district": "Dubuque",
+            "ward": "Cedar Avenue"
+         }
+      },
+      "items": [
+         {
+            "product_id": "6dc8348a-1405-4609-8e3f-3bf7f65db55d",
+            "product_name": "Licensed Plastic Table",
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 668,
+            "quantity": 10
+         },
+         {
+            "product_id": "c2081a09-d160-4c50-852b-4382eda069f8",
+            "product_name": "Handcrafted Cotton Gloves",
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 373,
+            "quantity": 7
+         },
+         {
+            "product_id": "70aa8291-6fbe-4ac6-b8df-9eaec9133cea",
+            "product_name": "Rustic Bronze Ball",
+            "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 332,
+            "quantity": 8
+         },
+         {
+            "product_id": "4d8d7af2-47e3-4e37-8026-93c2c3d359f2",
+            "product_name": "Tasty Cotton Soap",
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 478,
+            "quantity": 2
+         },
+         {
+            "product_id": "9cb4e269-86cc-43ac-aa33-53fd0783a76b",
+            "product_name": "Luxurious Wooden Keyboard",
+            "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 470,
+            "quantity": 8
+         },
+         {
+            "product_id": "a53eda23-8b19-4e1a-aeeb-ce7c32dc4b03",
+            "product_name": "Modern Metal Pizza",
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 101,
+            "quantity": 8
+         },
+         {
+            "product_id": "59592de5-247a-4e4b-8725-7a8dc2690e10",
+            "product_name": "Generic Soft Towels",
+            "description": "The Football Is Good For Training And Recreational Purposes",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 662,
+            "quantity": 8
+         }
+      ],
+      "order_details": {
+         "total_items": 7,
+         "total_price": "22767.00",
+         "order_date": "2024-11-05",
+         "order_note": "Cupressus crudelis caritas tertius statua.",
+         "payment_method": "PayPal",
+         "order_status": "Đã tiếp nhận đơn",
+         "voucher": null,
+         "discount_rate": "0%",
+         "discount_amount": "0 ₫",
+         "final_price": "22.767 ₫"
+      },
+      "shipping": {
+         "shipping_address": {
+            "street": "30426 Danika Spurs",
+            "city": "Petetown",
+            "district": "Metairie",
+            "ward": "Spring Street"
+         },
+         "shipping_fee": 361,
+         "shipping_method": "SPX",
+         "estimated_delivery_date": "2024-11-07"
+      },
+      "device": {
+         "device_type": "Mobile",
+         "operating_system": "Windows",
+         "browser": "Mozilla/5.0 (Windows; U; Windows NT 5.0)AppleWebKit/535.2.2 (KHTML, like Gecko) Version/4.1.5 Safari/535.2.2",
+         "ip_address": "573f:5a5c:a2ff:8f59:28c7:bcc0:8f16:4d76"
+      }
+   },
+   {
+      "order_id": "f5636b7b-abd0-4dbd-a457-c506563d5073",
+      "store": {
+         "store_id": "d257777d-fafe-4c80-93ba-316ecafbc0bb",
+         "store_name": "Gerhold, Powlowski and Renner",
+         "store_address": {
+            "street": "6874 Rath Green",
+            "city": "Darianaport",
+            "district": "Chesterfield",
+            "ward": "Gloucester Road"
+         },
+         "store_phone": "246-780-8600 x22166",
+         "store_email": "Jaren6@yahoo.com",
+         "store_image": "https://loremflickr.com/640/480/business"
+      },
+      "customer": {
+         "customer_id": "45688ea5-9437-48d7-a8a1-7ec3588d21f9",
+         "customer_image": "https://avatars.githubusercontent.com/u/28459548",
+         "name": "Salvatore Konopelski",
+         "phone": "1-210-273-6425",
+         "gender": "Nam",
+         "email": "Monty_Bode93@yahoo.com",
+         "address": {
+            "street": "435 Reagan Corner",
+            "city": "Boylebury",
+            "district": "Commerce City",
+            "ward": "Priory Close"
+         }
+      },
+      "items": [
+         {
+            "product_id": "95aa55b1-d003-4ec1-94f3-9fc9cce96743",
+            "product_name": "Handmade Bronze Tuna",
+            "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 31,
+            "quantity": 3
+         },
+         {
+            "product_id": "22ff5bb5-324b-4953-b45b-41826c768751",
+            "product_name": "Modern Rubber Bacon",
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 623,
+            "quantity": 5
+         },
+         {
+            "product_id": "4628bfe1-4223-43e1-b800-b471c2e71b32",
+            "product_name": "Oriental Wooden Computer",
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 612,
+            "quantity": 6
+         },
+         {
+            "product_id": "a9a8e28d-6978-4162-bd87-4e394311a0a7",
+            "product_name": "Handcrafted Fresh Salad",
+            "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 797,
+            "quantity": 10
+         }
+      ],
+      "order_details": {
+         "total_items": 4,
+         "total_price": "14850.00",
+         "order_date": "2024-11-06",
+         "order_note": "Vulticulus comitatus demoror tersus administratio vorago degenero depulso torqueo.",
+         "payment_method": "Credit Card",
+         "order_status": "Đã giao",
+         "voucher": null,
+         "discount_rate": "0%",
+         "discount_amount": "0 ₫",
+         "final_price": "14.850 ₫"
+      },
+      "shipping": {
+         "shipping_address": {
+            "street": "74343 6th Avenue",
+            "city": "Karineberg",
+            "district": "Lynchburg",
+            "ward": "Mill Road"
+         },
+         "shipping_fee": 195,
+         "shipping_method": "SPX",
+         "estimated_delivery_date": "2024-11-07"
+      },
+      "device": {
+         "device_type": "Desktop",
+         "operating_system": "Windows",
+         "browser": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 5.1; Trident/3.0; .NET CLR 3.9.29385.1)",
+         "ip_address": "234.157.82.79"
+      }
+   },
+   {
+      "order_id": "f4771ebf-018c-4bcd-be2b-cc2a24473721",
+      "store": {
+         "store_id": "1f228ff9-5f75-49c4-810b-2e7557492518",
+         "store_name": "Harvey - Upton",
+         "store_address": {
+            "street": "16096 S 9th Street",
+            "city": "Baldwin Park",
+            "district": "Blue Springs",
+            "ward": "Chestnut Grove"
+         },
+         "store_phone": "(592) 261-3434 x192",
+         "store_email": "Herman_Hudson49@gmail.com",
+         "store_image": "https://loremflickr.com/640/480/business"
+      },
+      "customer": {
+         "customer_id": "97641d88-08b3-4c14-8e9a-1a78b816a159",
+         "customer_image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1082.jpg",
+         "name": "Deanna Rodriguez",
+         "phone": "(527) 921-2971 x1901",
+         "gender": "Nữ",
+         "email": "Royce70@gmail.com",
+         "address": {
+            "street": "5349 N 2nd Street",
+            "city": "Lilianecester",
+            "district": "Valdosta",
+            "ward": "Broad Street"
+         }
+      },
+      "items": [
+         {
+            "product_id": "82fec44f-d87b-41ee-92d0-e910076203b1",
+            "product_name": "Incredible Steel Keyboard",
+            "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 935,
+            "quantity": 5
+         },
+         {
+            "product_id": "435ae2f2-6428-4234-81c6-997a221904bc",
+            "product_name": "Generic Granite Computer",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 223,
+            "quantity": 9
+         },
+         {
+            "product_id": "2a6bcfa9-098b-4997-aa26-4fde07265bcd",
+            "product_name": "Oriental Frozen Sausages",
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 14,
+            "quantity": 1
+         },
+         {
+            "product_id": "ac0632cc-70a2-43aa-ab95-80b77e00aa7b",
+            "product_name": "Luxurious Plastic Chicken",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 563,
+            "quantity": 9
+         },
+         {
+            "product_id": "b2ffe74e-dbb6-44b0-bca2-e49b083a9cee",
+            "product_name": "Modern Steel Table",
+            "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 985,
+            "quantity": 3
+         },
+         {
+            "product_id": "74665b27-57e3-46bc-86d8-dad1514e90d0",
+            "product_name": "Fantastic Cotton Chips",
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 52,
+            "quantity": 1
+         },
+         {
+            "product_id": "4f20a2a3-8552-4237-ac60-a72209d44189",
+            "product_name": "Ergonomic Plastic Ball",
+            "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 637,
+            "quantity": 6
+         },
+         {
+            "product_id": "3bf57378-f473-4e49-a3f1-2862da4c98c7",
+            "product_name": "Sleek Fresh Tuna",
+            "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 602,
+            "quantity": 2
+         },
+         {
+            "product_id": "f4d99a17-220e-41d5-b7eb-24c266afb0c7",
+            "product_name": "Awesome Frozen Car",
+            "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+            "product_image": "https://loremflickr.com/640/480",
+            "price": 51,
+            "quantity": 7
+         }
+      ],
+      "order_details": {
+         "total_items": 9,
+         "total_price": "20153.00",
+         "order_date": "2024-11-06",
+         "order_note": "Thesis sperno vesco.",
+         "payment_method": "COD",
+         "order_status": "Chờ xác nhận",
+         "voucher": "555a67f1-8057-41c5-97ac-e0829517770d",
+         "discount_rate": "69%",
+         "discount_amount": "13.905,57 ₫",
+         "final_price": "6.247,43 ₫"
+      },
+      "shipping": {
+         "shipping_address": {
+            "street": "42882 Brown Plain",
+            "city": "Mervinview",
+            "district": "Delray Beach",
+            "ward": "River Street"
+         },
+         "shipping_fee": 459,
+         "shipping_method": "Express",
+         "estimated_delivery_date": "2024-11-06"
+      },
+      "device": {
+         "device_type": "Tablet",
+         "operating_system": "Android",
+         "browser": "Opera/13.6 (X11; Linux i686; U; NB Presto/2.9.190 Version/10.00)",
+         "ip_address": "161.99.244.245"
+      }
+   }
+]
