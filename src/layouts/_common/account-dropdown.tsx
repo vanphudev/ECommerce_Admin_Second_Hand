@@ -1,3 +1,4 @@
+import { faker } from '@faker-js/faker';
 import { Divider, MenuProps } from 'antd';
 import Dropdown, { DropdownProps } from 'antd/es/dropdown/dropdown';
 import React from 'react';
@@ -17,7 +18,7 @@ const { VITE_APP_HOMEPAGE: HOMEPAGE } = import.meta.env;
  */
 export default function AccountDropdown() {
    const { replace } = useRouter();
-   const { username, email, avatar } = useUserInfo();
+   const { username, email, profileImage } = useUserInfo();
    const { clearUserInfoAndToken } = useUserActions();
    const { backToLogin } = useLoginStateContext();
    const { t } = useTranslation();
@@ -73,7 +74,7 @@ export default function AccountDropdown() {
    return (
       <Dropdown menu={{ items }} trigger={['click']} dropdownRender={dropdownRender}>
          <IconButton className="h-10 w-10 transform-none px-0 hover:scale-105">
-            <img className="h-8 w-8 rounded-full" src={avatar} alt="" />
+            <img className="h-8 w-8 rounded-full" src={faker.image.avatarGitHub()} alt="" />
          </IconButton>
       </Dropdown>
    );
