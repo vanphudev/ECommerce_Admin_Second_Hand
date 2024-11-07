@@ -5,7 +5,7 @@ import { useUserToken } from '@/store/userStore';
 
 import { useRouter } from '../hooks';
 
-const PageError = lazy(() => import('@/pages/sys/error/PageError'));
+const PageError = lazy(() => import('@/pages/management/sys/error/PageError'));
 
 type Props = {
    children: React.ReactNode;
