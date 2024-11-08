@@ -6,14 +6,14 @@ export interface UserToken {
 }
 
 export interface UserInfo {
-   id: string;
-   email: string;
-   username: string;
-   password?: string;
-   avatar?: string;
-   role?: Role;
-   status?: BasicStatus;
-   permissions?: Permission[];
+   userId: string;
+   email?: string;
+   phone?: string;
+   fullName?: JSON;
+   gender?: string;
+   birthday?: string;
+   username?: string;
+   profileImage?: string;
 }
 
 export interface Organization {
@@ -40,6 +40,7 @@ export interface Permission {
    hideTab?: boolean;
    frameSrc?: string;
    newFeature?: boolean;
+   iconNewFeature?: string;
    children?: Permission[];
 }
 
@@ -51,4 +52,18 @@ export interface Role {
    order?: number;
    desc?: string;
    permission?: Permission[];
+}
+
+export interface SalesChannel {
+   id: string;
+   name: string;
+   address: string;
+   ward: string;
+   deliveryArea: string;
+   phone: string;
+   email: string;
+   company: string;
+   supplierGroup: string;
+   creator: string;
+   notes?: string;
 }
