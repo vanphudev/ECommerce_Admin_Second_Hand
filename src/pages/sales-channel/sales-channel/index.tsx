@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 import { ColumnsType } from 'antd/es/table';
 import { TableRowSelection } from 'antd/es/table/interface';
-type SearchFormFieldType = Pick<SalesChannel, 'name'>;
+type SearchFormFieldType = Pick<SalesChannel, 'name','phone'>;
 
 export default function SalesChannelPage() {
    const [searchForm] = Form.useForm();
@@ -88,12 +88,16 @@ export default function SalesChannelPage() {
          <Card>
             <Form form={searchForm}>
                <Row gutter={[16, 16]}>
-                  <Col span={24} lg={12}>
+                  <Col span={24} lg={6}>
                      <Form.Item<SearchFormFieldType> label="Tên NCC" name="name" className="!mb-0">
                         <Input />
                      </Form.Item>
                   </Col>
-
+                  <Col span={24} lg={6}>
+                     <Form.Item<SearchFormFieldType> label="Điện thoại" name="phone" className="!mb-0">
+                        <Input />
+                     </Form.Item>
+                  </Col>
                   <Col span={24} lg={12}>
                      <div className="flex justify-end">
                         <Button onClick={onSearchFormReset}>Reset</Button>
