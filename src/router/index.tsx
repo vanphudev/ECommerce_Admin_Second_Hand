@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { Navigate, RouteObject, RouterProvider, createHashRouter } from 'react-router-dom';
+import { Navigate, RouteObject, RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import DashboardLayout from '@/layouts/dashboard';
 import AuthGuard from '@/router/components/auth-guard';
@@ -11,7 +11,7 @@ import { AppRouteObject } from '#/router';
 const { VITE_APP_HOMEPAGE: HOMEPAGE } = import.meta.env;
 const LoginRoute: AppRouteObject = {
    path: '/login',
-   Component: lazy(() => import('@/pages/sys/login/Login')),
+   Component: lazy(() => import('@/pages/management/sys/login/Login')),
 };
 const PAGE_NOT_FOUND_ROUTE: AppRouteObject = {
    path: '*',
@@ -30,9 +30,7 @@ export default function Router() {
       children: [{ index: true, element: <Navigate to={HOMEPAGE} replace /> }, ...permissionRoutes],
    };
 
-   const routes = [LoginRoute, asyncRoutes, ErrorRoutes, PAGE_NOT_FOUND_ROUTE];
-
-   const router = createHashRouter(routes as unknown as RouteObject[]);
-
+   const routes: AppRouteObject[] = [LoginRoute, asyncRoutes, ErrorRoutes, PAGE_NOT_FOUND_ROUTE];
+   const router = createBrowserRouter(routes as unknown as RouteObject[]);
    return <RouterProvider router={router} />;
 }
