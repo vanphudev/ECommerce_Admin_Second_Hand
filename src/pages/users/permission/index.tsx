@@ -1,16 +1,24 @@
 import { Button, Card, Popconfirm } from 'antd';
 import Table, { ColumnsType } from 'antd/es/table';
 import { isNil } from 'ramda';
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+
+import { IconButton, Iconify, SvgIcon } from '@/components/icon';
+import { useUserPermission } from '@/store/userStore';
+
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { IconButton, Iconify, SvgIcon } from '@/components/icon';
+
 import ProTag from '@/theme/antd/components/tag';
 
 import PermissionModal, { type PermissionModalProps } from './permission-modal';
 
 import { Permission } from '#/entity';
 import { BasicStatus, PermissionType } from '#/enum';
+
 import { permissionData } from '../../../_mock/_mock_permission.js';
 
 
@@ -27,6 +35,10 @@ const defaultPermissionValue: Permission = {
    type: PermissionType.CATALOGUE,
 };
 export default function PermissionPage() {
+
+   const permissions = useUserPermission();
+   const { t } = useTranslation();
+
    const { t } = useTranslation();
 
    const [permissions, setPermissions] = useState<Permission[]>([]);

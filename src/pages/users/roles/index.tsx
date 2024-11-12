@@ -2,10 +2,19 @@ import { Button, Card, Popconfirm } from 'antd';
 import Table, { ColumnsType } from 'antd/es/table';
 import { useState } from 'react';
 
+import { ROLE_LIST } from '@/_mock/assets';
+
 import { IconButton, Iconify } from '@/components/icon';
 import ProTag from '@/theme/antd/components/tag';
 
 import { RoleModal, RoleModalProps } from './role-modal';
+
+
+import { Role } from '#/entity';
+import { BasicStatus } from '#/enum';
+
+const ROLES: Role[] = ROLE_LIST;
+
 import { roleData } from '../../../_mock/_mock_role';
 import { Role } from '#/entity';
 import { BasicStatus } from '#/enum';

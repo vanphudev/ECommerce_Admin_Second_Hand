@@ -53,3 +53,17 @@ export interface Role {
    desc?: string;
    permission?: Permission[];
 }
+
+export interface SalesChannel {
+   id: string;
+   name: string;
+   address: string;
+   ward: string;
+   deliveryArea: string;
+   phone: string;
+   email: string;
+   company: string;
+   supplierGroup: string;
+   creator: string;
+   notes?: string;
+}
