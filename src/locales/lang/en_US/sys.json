@@ -92,7 +92,8 @@
          "users": {
             "index": "User Management",
             "permission": "Permissions",
-            "roles": "Roles"
+            "roles": "Roles",
+            "user": "User"
          },
          "sells": {
             "index": "Sells Management",

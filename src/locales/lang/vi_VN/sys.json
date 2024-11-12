@@ -91,7 +91,8 @@
          "users": {
             "index": "Quản lý người dùng",
             "permission": "Phân quyền",
-            "roles": "Vai trò"
+            "roles": "Vai trò",
+            "user": "Người dùng"
          },
          "sells": {
             "index": "Quản lý bán hàng",

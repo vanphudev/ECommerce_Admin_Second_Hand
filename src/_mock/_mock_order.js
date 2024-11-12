@@ -104,11 +104,5 @@ const generateOrderData = (numberOrder, minProducts = 1, maxProducts = 10) => {
    return orders;
 };
 
-const numberOrder = 10;
-const orderData = generateOrderData(numberOrder);
-console.log(JSON.stringify(orderData, null, 2));
-fs.writeFileSync(
-   'E:\\INTERNSHIP\\InternFE\\second_hand_intern\\admin_second_hand\\src\\_mock\\_orders.json',
-   JSON.stringify(orderData, null, 2),
-   'utf-8',
-);
+const numberOrder = 85;
+export const orderData = generateOrderData(numberOrder);

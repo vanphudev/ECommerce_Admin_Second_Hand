@@ -36,7 +36,7 @@ const generateSaleChannelData = (numberOfSaleChannels) => {
             creator_name: faker.name.fullName(),
          },
          company: faker.company.name(),
-         supplierGroup: faker.company.bsNoun(), 
+         supplierGroup: faker.company.bsNoun(),
          creator: faker.name.fullName(),
          creation_date: faker.date.past().toISOString().split('T')[0],
          products: products,
@@ -50,11 +50,11 @@ const generateSaleChannelData = (numberOfSaleChannels) => {
    return SaleChannels;
 };
 const generateVietnamesePhoneNumber = () => {
-    const prefixes = ['09', '08', '07', '03', '05', '04'];
-    const prefix = faker.helpers.arrayElement(prefixes); 
-    const number = faker.datatype.number({ min: 10000000, max: 99999999 }); 
-    return `${prefix}${number}`;
- };
+   const prefixes = ['09', '08', '07', '03', '05', '04'];
+   const prefix = faker.helpers.arrayElement(prefixes);
+   const number = faker.datatype.number({ min: 10000000, max: 99999999 });
+   return `${prefix}${number}`;
+};
 const generateSaleChannelProducts = (minProducts = 5, maxProducts = 15) => {
    const products = [];
    const numberOfProducts = faker.datatype.number({ min: minProducts, max: maxProducts });

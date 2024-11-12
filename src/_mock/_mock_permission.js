@@ -23,8 +23,8 @@ const generatePermissionData = (numberPermissions) => {
             component: faker.lorem.word(),
             icon: faker.helpers.arrayElement(['ic-home', 'ic-settings', 'ic-user']),
             hide: faker.datatype.boolean(),
-            status: faker.helpers.arrayElement([BasicStatus.ENABLE, BasicStatus.DISABLE]), // Sử dụng enum BasicStatus
-            type: faker.helpers.arrayElement([PermissionType.CATALOGUE, PermissionType.MENU]), // Sử dụng enum PermissionType
+            status: faker.helpers.arrayElement([BasicStatus.ENABLE, BasicStatus.DISABLE]), 
+            type: faker.helpers.arrayElement([PermissionType.CATALOGUE, PermissionType.MENU]), 
             order: faker.datatype.number({ min: 1, max: 100 }),
             description: faker.lorem.sentence(),
             created_at: faker.date.past().toISOString().split('T')[0],

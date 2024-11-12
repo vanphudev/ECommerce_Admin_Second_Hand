@@ -1,12 +1,13 @@
 import { Button, Card, Modal, Space, Table, Popconfirm, Form, Input, Row, Col, Select } from 'antd';
-import { SaleChannelData } from '../../../_mock/_mock_sale-channel.js';
+import { SaleChannelData } from '../../../_mock/_mock_sale-channel';
 import { IconButton, Iconify } from '@/components/icon';
 import { SalesChannel } from '#/entity';
 import { useEffect, useState } from 'react';
 
 import { ColumnsType } from 'antd/es/table';
 import { TableRowSelection } from 'antd/es/table/interface';
-type SearchFormFieldType = Pick<SalesChannel, 'name','phone'>;
+
+type SearchFormFieldType = Pick<SalesChannel, 'name' | 'phone'>;
 
 export default function SalesChannelPage() {
    const [searchForm] = Form.useForm();
@@ -29,6 +30,7 @@ export default function SalesChannelPage() {
       onOk: () => setSalesChannelModalProps((prev) => ({ ...prev, show: false })),
       onCancel: () => setSalesChannelModalProps((prev) => ({ ...prev, show: false })),
    });
+
    const columns: ColumnsType<SalesChannel> = [
       { title: 'ID NCC', dataIndex: 'SaleChannel_id', width: 70 },
       { title: 'Tên NCC', dataIndex: 'SaleChannel_name', width: 200 },
@@ -122,12 +124,11 @@ export default function SalesChannelPage() {
                size="small"
                scroll={{ x: 'max-content' }}
                pagination={false}
-               columns={columns}
+               columns={columns as ColumnsType<any>}
                dataSource={SaleChannelData}
                rowSelection={rowSelection}
             />
          </Card>
-
          <SalesChannelModal {...salesChannelModalProps} />
       </Space>
    );
@@ -163,10 +164,16 @@ function SalesChannelModal({ title, show, formValue, onOk, onCancel }: SalesChan
                <Input />
             </Form.Item>
             <Form.Item<SalesChannel> label="Phường/Xã" name="ward" required>
-               <Select></Select>
+               <Select>
+                  <Select.Option value="1">1</Select.Option>
+                  <Select.Option value="2">2</Select.Option>
+               </Select>
             </Form.Item>
             <Form.Item<SalesChannel> label="Khu vực GH" name="deliveryArea" required>
-               <Select></Select>
+               <Select>
+                  <Select.Option value="1">1</Select.Option>
+                  <Select.Option value="2">2</Select.Option>
+               </Select>
             </Form.Item>
             <Form.Item<SalesChannel> label="Điện thoại" name="phone" required>
                <Input />
@@ -190,5 +197,3 @@ function SalesChannelModal({ title, show, formValue, onOk, onCancel }: SalesChan
       </Modal>
    );
 }
-
-export default SalesChannel;
