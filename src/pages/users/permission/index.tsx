@@ -6,12 +6,21 @@ import { useTranslation } from 'react-i18next';
 
 import { IconButton, Iconify, SvgIcon } from '@/components/icon';
 import { useUserPermission } from '@/store/userStore';
+
+import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+
+import { IconButton, Iconify, SvgIcon } from '@/components/icon';
+
 import ProTag from '@/theme/antd/components/tag';
 
 import PermissionModal, { type PermissionModalProps } from './permission-modal';
 
 import { Permission } from '#/entity';
 import { BasicStatus, PermissionType } from '#/enum';
+
+import { permissionData } from '../../../_mock/_mock_permission.js';
+
 
 const defaultPermissionValue: Permission = {
    id: '',
@@ -26,9 +35,13 @@ const defaultPermissionValue: Permission = {
    type: PermissionType.CATALOGUE,
 };
 export default function PermissionPage() {
+
    const permissions = useUserPermission();
    const { t } = useTranslation();
 
+   const { t } = useTranslation();
+
+   const [permissions, setPermissions] = useState<Permission[]>([]);
    const [permissionModalProps, setPermissionModalProps] = useState<PermissionModalProps>({
       formValue: { ...defaultPermissionValue },
       title: 'New',
@@ -40,6 +53,12 @@ export default function PermissionPage() {
          setPermissionModalProps((prev) => ({ ...prev, show: false }));
       },
    });
+
+   useEffect(() => {
+      // Load permission data from the imported mock data
+      setPermissions(permissionData);
+   }, []);
+
    const columns: ColumnsType<Permission> = [
       {
          title: 'Name',

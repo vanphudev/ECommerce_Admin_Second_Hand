@@ -190,3 +190,5 @@ function SalesChannelModal({ title, show, formValue, onOk, onCancel }: SalesChan
       </Modal>
    );
 }
+
+export default SalesChannel;
