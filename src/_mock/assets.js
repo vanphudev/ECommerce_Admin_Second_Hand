@@ -145,6 +145,15 @@ const USERS_PERMISSION = {
          route: 'roles',
          component: '/users/roles/index.tsx',
       },
+      {
+         id: '100033',
+         parentId: '10003',
+         label: 'sys.menu.users.user',
+         name: 'User',
+         type: PermissionType.MENU,
+         route: 'user',
+         component: '/users/user/index.tsx',
+      },
    ],
 };
 const SELLS_PERMISSION = {
