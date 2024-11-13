@@ -3,10 +3,9 @@ import { SaleChannelData } from '../../../_mock/_mock_sale-channel.js';
 import { IconButton, Iconify } from '@/components/icon';
 import { SalesChannel } from '#/entity';
 import { useEffect, useState } from 'react';
-
 import { ColumnsType } from 'antd/es/table';
-import { TableRowSelection } from 'antd/es/table/interface';
-type SearchFormFieldType = Pick<SalesChannel, 'name','phone'>;
+
+type SearchFormFieldType = Pick<SalesChannel, 'name', 'phone'>;
 
 export default function SalesChannelPage() {
    const [searchForm] = Form.useForm();
@@ -16,7 +15,7 @@ export default function SalesChannelPage() {
       formValue: {
          id: '',
          name: '',
-         address: '',
+         street: '',
          ward: '',
          deliveryArea: '',
          phone: '',
@@ -56,9 +55,10 @@ export default function SalesChannelPage() {
       },
    ];
 
-   const rowSelection: TableRowSelection<SalesChannel> = {
+   const rowSelection = {
       onChange: (selectedRowKeys, selectedRows) => {
-         console.log(`selectedRowKeys: ${selectedRowKeys}`, 'selectedRows: ', selectedRows);
+         console.log('selectedRowKeys: ', selectedRowKeys);
+         console.log('selectedRows: ', selectedRows);
       },
       onSelect: (record, selected, selectedRows) => {
          console.log(record, selected, selectedRows);
@@ -118,7 +118,7 @@ export default function SalesChannelPage() {
             }
          >
             <Table
-               rowKey="supplier_id"
+               rowKey="SaleChannel_id"
                size="small"
                scroll={{ x: 'max-content' }}
                pagination={false}

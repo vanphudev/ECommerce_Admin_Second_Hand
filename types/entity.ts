@@ -57,7 +57,7 @@ export interface Role {
 export interface SalesChannel {
    id: string;
    name: string;
-   address: string;
+   street: string;
    ward: string;
    deliveryArea: string;
    phone: string;
