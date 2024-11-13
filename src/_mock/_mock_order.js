@@ -25,6 +25,7 @@ const generateOrderData = (numberOrder, minProducts = 1, maxProducts = 10) => {
             quantity: faker.datatype.number({ min: 1, max: 10 }),
          });
       }
+
       const totalPrice = items.reduce((total, item) => total + item.price * item.quantity, 0);
       const isVoucherApplied = faker.datatype.boolean();
       const discountRate = isVoucherApplied ? faker.datatype.number({ min: 5, max: 70 }) : 0;
