@@ -57,13 +57,35 @@ export interface Role {
 export interface SalesChannel {
    id: string;
    name: string;
-   address: string;
-   ward: string;
-   deliveryArea: string;
    phone: string;
    email: string;
+   street: string;
+   city: string;
+   ward: string;
+   creator_name: string;
    company: string;
    supplierGroup: string;
-   creator: string;
    notes?: string;
+}
+
+export interface Voucher {
+   code: string;
+   name: string;
+   type: string;
+   value: string;
+   startDate: string;
+   endDate: string;
+   maxUsage: number;
+   conditions: string;
+   status: string;
+   userType: string;
+   isSingleUse: boolean;
+   description: string;
+}
+
+export interface Backup {
+   fileName: string;
+   fileSize: number;
+   location: string;
+   restoreAvailable: boolean;
 }

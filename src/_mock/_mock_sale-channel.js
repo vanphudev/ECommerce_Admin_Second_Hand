@@ -72,5 +72,5 @@ const generateSaleChannelProducts = (minProducts = 5, maxProducts = 15) => {
    return products;
 };
 
-const numberOfSaleChannels = 10;
+const numberOfSaleChannels = 50;
 export const SaleChannelData = generateSaleChannelData(numberOfSaleChannels);

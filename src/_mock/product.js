@@ -3,7 +3,6 @@ import { faker } from '@faker-js/faker';
 /**
  * Product data mock
  */
-
 export const PRODUCT_LIST = [
    {
       id: 'efaa20ea-4dc5-47ee-a200-8a899be29401',
@@ -146,7 +145,6 @@ export const PRODUCT_LIST = [
       updatedAt: faker.date.recent(),
    },
 ];
-
 // Generate random product data
 for (let i = 0; i < PRODUCT_LIST.length; i++) {
    PRODUCT_LIST[i].id = faker.datatype.uuid();
