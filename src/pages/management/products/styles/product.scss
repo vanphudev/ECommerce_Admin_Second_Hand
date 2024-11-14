@@ -28,8 +28,7 @@
 
    .orders-table {
       .ant-table {
-         background-color: #f5f5f5;
-
+         min-height: 650px;
          .product-id {
             font-weight: bold;
          }
