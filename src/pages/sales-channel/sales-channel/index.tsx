@@ -1,11 +1,19 @@
+
 import { Button, Card, Modal, Space, Table, Popconfirm, Form, Input, Row, Col, Select, message } from 'antd';
 import { SaleChannelData } from '@/_mock/_mock_sale-channel';
+
+import { Button, Card, Modal, Space, Table, Popconfirm, Form, Input, Row, Col, Select } from 'antd';
+import { SaleChannelData } from '../../../_mock/_mock_sale-channel';
+
 import { IconButton, Iconify } from '@/components/icon';
 import { SalesChannel } from '#/entity';
 import { useEffect, useState } from 'react';
 import { ColumnsType } from 'antd/es/table';
 import { createStyles } from 'antd-style';
 import { TableRowSelection } from 'antd/es/table/interface';
+
+type SearchFormFieldType = Pick<SalesChannel, 'name' | 'phone'>;
+
 
 const useStyle = createStyles(({ css }) => ({
    customTable: css`
@@ -121,6 +129,7 @@ export default function SalesChannelPage() {
                rowKey="SaleChannel_id"
                style={{ width: '100%', flex: 1 }}
                size="small"
+
                scroll={{ y: 'calc(100vh - 300px)' }}
                pagination={{
                   size: 'default',
@@ -129,6 +138,10 @@ export default function SalesChannelPage() {
                   showQuickJumper: true,
                   showTotal: (total) => `Total ${total} items`,
                }}
+
+               scroll={{ x: 'max-content' }}
+               pagination={false}
+
                columns={columns as ColumnsType<any>}
                dataSource={SaleChannelData}
                rowSelection={rowSelection}
@@ -167,8 +180,22 @@ function SalesChannelModal({ title, show, formValue, onOk, onCancel }: SalesChan
                <Input placeholder="Nhập tên nhà cung cấp" />
             </Form.Item>
 
+
             <Form.Item<SalesChannel> label="Địa chỉ" name="street" required>
                <Input placeholder="Nhập địa chỉ" />
+
+            <Form.Item<SalesChannel> label="Phường/Xã" name="ward" required>
+               <Select>
+                  <Select.Option value="1">1</Select.Option>
+                  <Select.Option value="2">2</Select.Option>
+               </Select>
+            </Form.Item>
+            <Form.Item<SalesChannel> label="Khu vực GH" name="deliveryArea" required>
+               <Select>
+                  <Select.Option value="1">1</Select.Option>
+                  <Select.Option value="2">2</Select.Option>
+               </Select>
+
             </Form.Item>
 
             <Row gutter={30}>

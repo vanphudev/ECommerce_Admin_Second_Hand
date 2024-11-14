@@ -37,6 +37,7 @@ const generateSaleChannelData = (numberOfSaleChannels) => {
          },
          company: faker.company.name(),
          supplierGroup: faker.company.bsNoun(),
+         creator: faker.name.fullName(),
          creation_date: faker.date.past().toISOString().split('T')[0],
          products: products,
          total_purchase: formatCurrency(totalPurchase),
