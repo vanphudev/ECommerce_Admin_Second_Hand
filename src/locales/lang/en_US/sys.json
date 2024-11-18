@@ -31,7 +31,7 @@
          "signUpFormTitle": "Sign up",
          "forgetFormTitle": "Reset password",
          "signInPrimaryTitle": "Hi, Welcome Back",
-         "signInSecondTitle": "Backstage management system",
+         "signInSecondTitle": "Amazing Teach System - Admin - Application for managing system",
          "signInTitle": "",
          "signInDesc": "Enter your personal details and get started!",
          "policy": "I agree to the xxx Privacy Policy",
@@ -52,7 +52,7 @@
          "confirmPasswordPlaceholder": "Please input confirm password",
          "emaildPlaceholder": "Please input email",
          "smsPlaceholder": "Please input sms code",
-         "mobilePlaceholder": "Please input mobile",
+         "mobilePlaceholder": "Please input phone number",
          "policyPlaceholder": "Register after checking",
          "diffPwd": "The two passwords are inconsistent",
          "userName": "Username",
@@ -76,64 +76,61 @@
          "closeRight": "Close Right"
       },
       "menu": {
-         "dashboard": "Dashboard",
-         "workbench": "Workbench",
-         "analysis": "Analysis",
-         "management": "Management",
-         "user": {
-            "index": "User",
-            "profile": "Profile",
-            "account": "Account"
+         "dashboard": {
+            "index": "Dashboard",
+            "workbench": "Workbench",
+            "analysis": "Analysis"
+         },
+         "management": {
+            "index": "Management",
+            "products": "Products",
+            "categories": "Categories",
+            "prices-products": "Prices Products",
+            "payment-methods": "Payment Methods",
+            "reviews": "Reviews"
+         },
+         "users": {
+            "index": "User Management",
+            "permission": "Permissions",
+            "roles": "Roles",
+            "user": "User"
+         },
+         "sells": {
+            "index": "Sells Management",
+            "sell": "Sell",
+            "voucher": "Voucher"
+         },
+         "sales-channel": {
+            "index": "Sales Channel",
+            "sales-channel": "Sales Channel"
          },
          "system": {
-            "index": "System",
-            "organization": "Organization",
-            "permission": "Permission",
-            "role": "Role",
-            "user": "User",
-            "user_detail": "User Detail"
+            "index": "System Management",
+            "backup": "Backup",
+            "restore": "Restore",
+            "setting": "Settings"
          },
-         "blog": "Blog",
-         "components": "Components",
-         "icon": "Icon",
-         "animate": "Animate",
-         "scroll": "Scroll",
-         "markdown": "Markdown",
-         "editor": "Editor",
-         "i18n": "Multi Language",
-         "upload": "Upload",
-         "chart": "Chart",
-         "functions": "Functions",
-         "clipboard": "Clipboard",
-         "token_expired": "Token Expired",
-         "menulevel": {
-            "index": "Menu Level",
-            "1a": "Menu Level 1a",
-            "1b": {
-               "index": "Menu Level 1b",
-               "2a": "Menu Level 2a",
-               "2b": {
-                  "index": "Menu Level 2b",
-                  "3a": "Menu Level 3a",
-                  "3b": "Menu Level 3b"
-               }
-            }
+         "reports": {
+            "index": "Reports - Statistics",
+            "customer": "Customer Statistics",
+            "employee": "Employee Statistics",
+            "by-employee": "Statistics by Employee",
+            "booking": "Booking Statistics",
+            "today": "Today’s Statistics"
          },
-         "disabled": "Item Disabled",
-         "label": "Item Label",
-         "frame": "Item External",
-         "external_link": "External Link",
-         "iframe": "Iframe",
-         "blank": "Blank",
-         "calendar": "Calendar",
-         "kanban": "Kanban",
-         "error": {
-            "index": "Error Page",
-            "403": "403",
-            "404": "404",
-            "500": "500"
+         "orders": {
+            "index": "Orders Management",
+            "orders": "Orders"
+         },
+         "vouchers": {
+            "index": "Vouchers Management",
+            "voucher": "Voucher"
+         },
+         "information": {
+            "index": "Information Management",
+            "profile": "Profile",
+            "logout": "Logout"
          }
-      },
-      "docs": "Document"
+      }
    }
 }

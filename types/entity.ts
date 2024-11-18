@@ -6,14 +6,14 @@ export interface UserToken {
 }
 
 export interface UserInfo {
-   id: string;
-   email: string;
-   username: string;
-   password?: string;
-   avatar?: string;
-   role?: Role;
-   status?: BasicStatus;
-   permissions?: Permission[];
+   userId: string;
+   email?: string;
+   phone?: string;
+   fullName?: JSON;
+   gender?: string;
+   birthday?: string;
+   username?: string;
+   profileImage?: string;
 }
 
 export interface Organization {
@@ -40,6 +40,7 @@ export interface Permission {
    hideTab?: boolean;
    frameSrc?: string;
    newFeature?: boolean;
+   iconNewFeature?: string;
    children?: Permission[];
 }
 
@@ -51,4 +52,40 @@ export interface Role {
    order?: number;
    desc?: string;
    permission?: Permission[];
+}
+
+export interface SalesChannel {
+   id: string;
+   name: string;
+   phone: string;
+   email: string;
+   street: string;
+   city: string;
+   ward: string;
+   creator_name: string;
+   company: string;
+   supplierGroup: string;
+   notes?: string;
+}
+
+export interface Voucher {
+   code: string;
+   name: string;
+   type: string;
+   value: string;
+   startDate: string;
+   endDate: string;
+   maxUsage: number;
+   conditions: string;
+   status: string;
+   userType: string;
+   isSingleUse: boolean;
+   description: string;
+}
+
+export interface Backup {
+   fileName: string;
+   fileSize: number;
+   location: string;
+   restoreAvailable: boolean;
 }

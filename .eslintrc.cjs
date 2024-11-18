@@ -48,58 +48,24 @@ module.exports = {
       'jsx-a11y/no-noninteractive-element-interactions': 'off',
       'jsx-a11y/no-static-element-interactions': 'off',
       'react/react-in-jsx-scope': 'off',
+      'import/newline-after-import': 'off',
       'react/button-has-type': 'off',
       'react/require-default-props': 'off',
       'react/no-array-index-key': 'off',
       'react/jsx-props-no-spreading': 'off',
       'import/first': 'warn',
-      'import/newline-after-import': 'warn',
       'import/no-duplicates': 'warn',
       'import/no-extraneous-dependencies': 'off',
       'import/prefer-default-export': 'off',
+      '@typescript-eslint/naming-convention': 'off',
       'import/no-cycle': 'off',
-      'import/order': [
-         'warn',
-         {
-            groups: ['builtin', 'external', 'internal', 'parent', ['sibling', 'index'], 'object', 'type'],
-            pathGroups: [
-               {
-                  pattern: '@/**',
-                  group: 'internal',
-               },
-               {
-                  pattern: '#/**',
-                  group: 'type',
-               },
-               {
-                  pattern: '*.{scss,css,less,styl,stylus}',
-                  group: 'parent',
-               },
-               {
-                  pattern: '*.{js,jsx,ts,tsx}',
-                  group: 'sibling',
-               },
-            ],
-            'newlines-between': 'always',
-            pathGroupsExcludedImportTypes: ['sibling', 'index'],
-            warnOnUnassignedImports: true,
-            alphabetize: { order: 'asc', caseInsensitive: true },
-         },
-      ],
-
+      'import/order': 'off',
       'unused-imports/no-unused-imports-ts': 'warn',
       'unused-imports/no-unused-vars-ts': [
          'warn',
          { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' },
       ],
-
-      '@typescript-eslint/no-unused-vars': [
-         'warn',
-         {
-            argsIgnorePattern: '^_',
-            varsIgnorePattern: '^_',
-         },
-      ],
+      '@typescript-eslint/no-unused-vars': 'off',
       '@typescript-eslint/no-unused-expressions': 'off',
       '@typescript-eslint/ban-ts-ignore': 'off',
       '@typescript-eslint/ban-ts-comment': 'off',

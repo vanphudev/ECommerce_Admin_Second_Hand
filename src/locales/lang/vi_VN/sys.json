@@ -31,7 +31,7 @@
          "signUpFormTitle": "Đăng ký",
          "forgetFormTitle": "Đặt lại mật khẩu",
          "signInPrimaryTitle": "Chào mừng trở lại",
-         "signInSecondTitle": "Hệ thống quản lý trung tâm",
+         "signInSecondTitle": "Amazing Teach System - Admin - Ứng dụng quản lý hệ thống",
          "signInDesc": "Nhập thông tin cá nhân của bạn để bắt đầu sử dụng!",
          "policy": "Tôi đồng ý với chính sách bảo mật của xxx",
          "scanSign": "Quét mã và nhấp 'Xác nhận' để hoàn tất đăng nhập",
@@ -42,7 +42,7 @@
          "forgetPassword": "Quên mật khẩu?",
          "otherSignIn": "Đăng nhập bằng phương thức khác",
          "sendSmsButton": "Gửi mã xác nhận",
-         "sendSmsText": "{{second}} giây nữa có thể lấy lại",
+         "sendSmsText": "{{second}} giây nữa.",
          "sendEmailButton": "Gửi email",
          "loginSuccessTitle": "Đăng nhập thành công",
          "loginSuccessDesc": "Chào mừng trở lại",
@@ -75,64 +75,60 @@
          "closeRight": "Đóng các tab bên phải"
       },
       "menu": {
-         "dashboard": "Bảng điều khiển",
-         "workbench": "Bàn làm việc",
-         "analysis": "Phân tích",
-         "management": "Quản lý",
-         "user": {
-            "index": "Người dùng",
-            "profile": "Hồ sơ",
-            "account": "Tài khoản"
+         "dashboard": {
+            "index": "Bảng điều khiển",
+            "workbench": "Bàn làm việc",
+            "analysis": "Phân tích"
+         },
+         "management": {
+            "index": "Quản lý chung",
+            "products": "Sản phẩm",
+            "categories": "Danh mục",
+            "prices-products": "Giá sản phẩm",
+            "payment-methods": "Phương thức thanh toán",
+            "reviews": "Đánh giá - Phản hồi"
+         },
+         "users": {
+            "index": "Quản lý người dùng",
+            "permission": "Phân quyền",
+            "roles": "Vai trò",
+            "user": "Người dùng"
+         },
+         "sells": {
+            "index": "Quản lý bán hàng",
+            "sell": "Bán hàng"
+         },
+         "sales-channel": {
+            "index": "Kênh bán hàng",
+            "sales-channel": "Kênh bán hàng"
          },
          "system": {
-            "index": "Hệ thống",
-            "organization": "Tổ chức",
-            "permission": "Quyền",
-            "role": "Vai trò",
-            "user": "Người dùng",
-            "user_detail": "Chi tiết người dùng"
+            "index": "Quản lý hệ thống",
+            "backup": "Sao lưu",
+            "restore": "Khôi phục",
+            "setting": "Cài đặt"
          },
-         "blog": "Blog",
-         "components": "Thành phần",
-         "icon": "Biểu tượng",
-         "animate": "Hoạt ảnh",
-         "scroll": "Cuộn",
-         "markdown": "Markdown",
-         "editor": "Soạn thảo văn bản",
-         "i18n": "Đa ngôn ngữ",
-         "upload": "Tải lên",
-         "chart": "Biểu đồ",
-         "functions": "Chức năng",
-         "clipboard": "Bảng nhớ tạm",
-         "token_expired": "Token hết hạn",
-         "menulevel": {
-            "index": "Menu đa cấp",
-            "1a": "Menu đa cấp 1a",
-            "1b": {
-               "index": "Menu đa cấp 1b",
-               "2a": "Menu đa cấp 2a",
-               "2b": {
-                  "index": "Menu đa cấp 2b",
-                  "3a": "Menu đa cấp 3a",
-                  "3b": "Menu đa cấp 3b"
-               }
-            }
+         "reports": {
+            "index": "Báo cáo - Thống kê",
+            "customer": "Thống kê khách hàng",
+            "employee": "Thống kê nhân viên",
+            "by-employee": "Thống kê theo nhân viên",
+            "booking": "Thống kê đặt vé",
+            "today": "Thống kê hôm nay"
          },
-         "disabled": "Mục bị vô hiệu",
-         "label": "Nhãn mục",
-         "frame": "Liên kết ngoài dự án",
-         "external_link": "Liên kết ngoài",
-         "iframe": "Liên kết nội",
-         "blank": "Trống",
-         "calendar": "Lịch",
-         "kanban": "Kanban",
-         "error": {
-            "index": "Trang lỗi",
-            "403": "403",
-            "404": "404",
-            "500": "500"
+         "orders": {
+            "index": "Quản lý đơn hàng",
+            "orders": "Đơn hàng"
+         },
+         "vouchers": {
+            "index": "Quản lý mã giảm giá",
+            "voucher": "Mã giảm giá"
+         },
+         "information": {
+            "index": "Thông tin cá nhân",
+            "profile": "Hồ sơ cá nhân",
+            "logout": "Đăng xuất"
          }
-      },
-      "docs": "Tài liệu"
+      }
    }
 }

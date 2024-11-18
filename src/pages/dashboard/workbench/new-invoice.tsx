@@ -99,7 +99,7 @@ export default function NewInvoice() {
   return (
     <Card className="flex-col">
       <header className="self-start">
-        <Typography.Title level={5}>New Invoice</Typography.Title>
+        <Typography.Title level={5}>Invoice</Typography.Title>
       </header>
       <main className="w-full">
         <Scrollbar>
