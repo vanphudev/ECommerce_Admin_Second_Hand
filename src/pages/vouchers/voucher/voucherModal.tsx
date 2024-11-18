@@ -2,7 +2,6 @@ import { Voucher } from './enity';
 import type { RcFile, UploadFile, UploadProps } from 'antd/es/upload/interface';
 import { useEffect, useState } from 'react';
 import { App, Form, Modal, Input, Radio, Space, Select, Typography, Upload, Spin } from 'antd';
-
 export type VoucherModalProps = {
    formValue: Voucher;
    title: string;
@@ -11,7 +10,6 @@ export type VoucherModalProps = {
    onCancel: VoidFunction;
    isCreate: boolean;
 };
-
 const getBase64 = (file: RcFile): Promise<string> =>
    new Promise((resolve, reject) => {
       const reader = new FileReader();
@@ -19,7 +17,6 @@ const getBase64 = (file: RcFile): Promise<string> =>
       reader.onload = () => resolve(reader.result as string);
       reader.onerror = (error) => reject(error);
    });
-
 export function VoucherModal({ formValue, title, show, onOk, onCancel, isCreate }: VoucherModalProps) {
    const [form] = Form.useForm<Voucher>();
    const { notification } = App.useApp();
@@ -27,7 +24,6 @@ export function VoucherModal({ formValue, title, show, onOk, onCancel, isCreate 
    const [previewOpen, setPreviewOpen] = useState(false);
    const [previewImage, setPreviewImage] = useState('');
    const [previewTitle, setPreviewTitle] = useState('');
-
    const handleCancelUpload = () => setPreviewOpen(false);
    const handlePreviewUpload = async (file: UploadFile) => {
       if (!file.url && !file.preview) {
@@ -37,16 +33,13 @@ export function VoucherModal({ formValue, title, show, onOk, onCancel, isCreate 
       setPreviewOpen(true);
       setPreviewTitle(file.name || file.url!.substring(file.url!.lastIndexOf('/') + 1));
    };
-
    const handleChange: UploadProps['onChange'] = ({ fileList: newFileList }) => setFileList(newFileList);
-
    useEffect(() => {
       if (show) {
          console.log(formValue as Voucher);
          form.setFieldsValue(formValue as Voucher);
       }
    }, [show, formValue, form]);
-
    const handleOk = () => {
       form.validateFields();
       notification.success({
@@ -55,7 +48,6 @@ export function VoucherModal({ formValue, title, show, onOk, onCancel, isCreate 
       });
       onOk();
    };
-
    const content = (
       <Form<Voucher>
          layout="horizontal"
@@ -125,7 +117,6 @@ export function VoucherModal({ formValue, title, show, onOk, onCancel, isCreate 
          </Form.Item>
       </Form>
    );
-
    return (
       <Modal title={title} open={show} onCancel={onCancel} onOk={handleOk} destroyOnClose width="60%" centered>
          {content}

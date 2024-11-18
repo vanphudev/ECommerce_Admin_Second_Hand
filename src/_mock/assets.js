@@ -28,7 +28,6 @@ export const ORG_LIST = [
       ],
    },
 ];
-////
 
 const DASHBOARD_PERMISSION = {
    id: '10001',
@@ -80,24 +79,6 @@ const MANAGEMENT_PERMISSION = {
          component: '/management/products/index.tsx',
       },
       {
-         id: '100022',
-         parentId: '10002',
-         label: 'sys.menu.management.categories',
-         name: 'Categories',
-         type: PermissionType.MENU,
-         route: 'categories',
-         component: '/management/categories/index.tsx',
-      },
-      {
-         id: '100023',
-         parentId: '10002',
-         label: 'sys.menu.management.prices-products',
-         name: 'Prices Products',
-         type: PermissionType.MENU,
-         route: 'prices-products',
-         component: '/management/prices-products/index.tsx',
-      },
-      {
          id: '100024',
          parentId: '10002',
          label: 'sys.menu.management.payment-methods',
@@ -137,15 +118,6 @@ const USERS_PERMISSION = {
          component: '/users/permission/index.tsx',
       },
       {
-         id: '100032',
-         parentId: '10003',
-         label: 'sys.menu.users.roles',
-         name: 'Roles',
-         type: PermissionType.MENU,
-         route: 'roles',
-         component: '/users/roles/index.tsx',
-      },
-      {
          id: '100033',
          parentId: '10003',
          label: 'sys.menu.users.user',
@@ -153,27 +125,6 @@ const USERS_PERMISSION = {
          type: PermissionType.MENU,
          route: 'user',
          component: '/users/user/index.tsx',
-      },
-   ],
-};
-const SELLS_PERMISSION = {
-   id: '10004',
-   parentId: '',
-   label: 'sys.menu.sells.index',
-   name: 'Sells',
-   icon: 'cib:sellfy',
-   type: PermissionType.CATALOGUE,
-   route: 'sells',
-   order: 4,
-   children: [
-      {
-         id: '100041',
-         parentId: '10004',
-         label: 'sys.menu.sells.sell',
-         name: 'Sell',
-         type: PermissionType.MENU,
-         route: 'sell',
-         component: '/sells/sell/index.tsx',
       },
    ],
 };
@@ -308,7 +259,6 @@ export const PERMISSION_LIST = [
    DASHBOARD_PERMISSION,
    MANAGEMENT_PERMISSION,
    USERS_PERMISSION,
-   SELLS_PERMISSION,
    SALESCHANNEL_PERMISSION,
    SYSTEM_PERMISSION,
    ORDERS_PERMISSION,
